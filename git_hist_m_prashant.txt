@@ -1,0 +1,1000 @@
+ 1134  sudo su 
+ 1135  ssh mcx@172.20.10.55
+ 1136  ssh root@172.20.10.55
+ 1137  ssh root@192.168.12.227
+ 1138  ssh root@172.20.11.95
+ 1139  ssh root@172.20.11.94
+ 1140  ssh root@192.168.12.6
+ 1141  ssh root@172.20.11.95 /bin/sh
+ 1142  ls -l /bin/bash
+ 1143  ssh mcx@172.20.10.55
+ 1144  cd /bin/bash
+ 1145  ls
+ 1146  su root
+ 1147  ssh root@192.168.12.6
+ 1148  sudo nano /etc/phpmyadmin/config.inc.php 
+ 1149  sudo systemctl restart mysql.service 
+ 1150  sudo systemctl status mysql.service 
+ 1151  sudo mysql -u root -p -h 192.168.12.6
+ 1152  sudo nano /etc/phpmyadmin/config.inc.php 
+ 1153  sudo systemctl restart mysql
+ 1154  sudo nano /etc/phpmyadmin/config.inc.php 
+ 1155  sudo systemctl restart mysql
+ 1156  sudo nano /etc/phpmyadmin/config.inc.php 
+ 1157  sudo systemctl restart mysql
+ 1158  sudo systemctl status mysql
+ 1159  ssh root@192.168.11.167
+ 1160  ping 192.168.150.160
+ 1161  sudo mysql -u root -p -h 192.168.12.6
+ 1162  ping 192.168.114.199
+ 1163  ssh root@192.168.12.6
+ 1164  python3 calc.py 
+ 1165  python3 hello.py 
+ 1166  ssh root@192.168.12.6
+ 1167  mysqldump -u root -p -h 192.168.12.6 zabbix > zabbix_backup.sql
+ 1168  ls
+ 1169  rm zabbix_backup.sql 
+ 1170  ls
+ 1171  sudo mysqldump -u root -p -h 192.168.12.6 --verbose zabbix > zabbix_backup.sql
+ 1172  rm zabbix_backup.sql 
+ 1173  ls
+ 1174  sudo mysqldump -u root -p -h 192.168.12.6 --verbose zabbix > zabbix_backup.sql
+ 1175  ls
+ 1176  rm zabbix_backup.sql 
+ 1177  ls
+ 1178  sudo nano /etc/phpmyadmin/config.inc.php 
+ 1179  sudo systemctl restart mysql.service 
+ 1180  ping 192.168.150.155
+ 1181  ping 192.168.150.18
+ 1182  ping 192.168.150.41
+ 1183  ping 192.168.150.58
+ 1184  ping 192.168.150.35
+ 1185  ssh root@172.20.11.28
+ 1186  date
+ 1187  sudo cd /etc/php/8.1/mods-available/
+ 1188  cd /etc/php/8.1/mods-available/
+ 1189  ls
+ 1190  git@gitlab.jainam.in:dot-net/ipo.git
+ 1191  ssh -T git@gitlab.jainam.in:dot-net/ipo.git
+ 1192  ssh -T git@gitlab.jainam.in
+ 1193  ping 172.20.11.8
+ 1194  ssh -T -p 22 git@gitlab.jainam.in
+ 1195  route -n
+ 1196  ip a
+ 1197  nmcli device show
+ 1198  Kernel IP routing table
+ 1199  Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+ 1200  0.0.0.0         192.168.1.1     0.0.0.0         UG    0      0        0 eth0
+ 1201  192.168.1.0     0.0.0.0         255.255.255.0   U     0      0        0 eth0
+ 1202  netstat -rn
+ 1203  python3 hello.py 
+ 1204  ping 192.168.150.167
+ 1205  df -TH
+ 1206  curl "https://gitlab.jainam.in/-/metrics?token=Xhf5yBGnc5sy47cE-4hR"
+ 1207  ssh mcx@172.20.8.55
+ 1208  issql zabbix user pass
+ 1209  ssh root@192.168.12.227
+ 1210  date
+ 1211  ssh j@172.20.11.128
+ 1212  ssh mcx@172.20.8.55
+ 1213  ssh root@172.20.11.95
+ 1214  ssh root@172.20.8.55
+ 1215  ssh mcx@172.20.8.55
+ 1216  ssh root@172.20.11.95
+ 1217  ssh root@192.168.12.111
+ 1218  ssh root@192.168.12.185
+ 1219  ssh bio@192.168.12.185
+ 1220  ssh root@192.168.12.185
+ 1221  ssh root@172.20.13.25
+ 1222  ssh j@172.20.11.179
+ 1223  ssh j@172.20.11.95
+ 1224  python3 check_os.py 
+ 1225  ssh root@192.168.12.227
+ 1226  ping 172.20.8.55
+ 1227  ping 192.168.150.59
+ 1228  ping 192.168.150.160
+ 1229  ssh root@172.20.11.28
+ 1230  ssh root@172.20.11.28
+ 1231  ping erp.jainam.in
+ 1232  nslookup erp.jainam.in
+ 1233  exit
+ 1234  ssh root@192.168.12.227
+ 1235  ssh root@172.20.11.28
+ 1236  ssh root@192.168.12.227
+ 1237  ssh j@192.168.50.52
+ 1238  ssh j@192.168.51.52
+ 1239  ssh mcx@172.20.8.55
+ 1240  ssh-keygen -f "/home/j/.ssh/known_hosts" -R "172.20.8.55"
+ 1241  ssh mcx@172.20.8.55
+ 1242  ssh root@192.168.12.81
+ 1243  ssh root@192.168.12.227
+ 1244  ssh root@172.20.11.95
+ 1245  ssh root@192.168.12.227
+ 1246  seqrite
+ 1247  sudo systemctl stop seqrite-antivirus
+ 1248  systemctl list-units --type=service --state=running
+ 1249  sudo dpkg -i | grep seqrite
+ 1250  sudo dpkg -i | grep SeqriteSelfProtectionLinux.service
+ 1251  sudo dpkg -i | grep apache2
+ 1252  sudo dpkg -l | grep apache2
+ 1253  sudo dpkg -l | grep SeqriteSelfProtectionLinux.service
+ 1254  sudo dpkg -l | grep seqrite
+ 1255  sudo apt purge seqrite-antivirus
+ 1256  sudo apt autoremove
+ 1257  dpkg --list | grep seqrite
+ 1258  sudo find / -name "*seqrite*"
+ 1259  /usr/bin/python3 /home/j/python/check_os.py
+ 1260  /usr/bin/python3 /home/j/python/hello.py
+ 1261  /usr/bin/python3 /home/j/python/datatype.py
+ 1262  python3 hello.py 
+ 1263  python3 check_os.py 
+ 1264  ssh root@192.168.12.82
+ 1265  ssh root@172.20.11.95
+ 1266  ping 192.168.12.4
+ 1267  ping 172.20.10.140
+ 1268  ssh trade@192.168.11.143
+ 1269  ssh aar@192.168.11.143
+ 1270  dig @8.8.8.8 campus.jainam.in
+ 1271  ssh trade@192.168.11.143
+ 1272  ping 192.168.150.57
+ 1273  ping 192.168.150.153
+ 1274  ping 192.168.150.9
+ 1275  ls
+ 1276  sudo nano DNS.sh
+ 1277  ls
+ 1278  sudo chmod +x DNS.sh 
+ 1279  ls
+ 1280  ./DNS.sh 
+ 1281  which bash
+ 1282  sudo nano DNS.sh
+ 1283  ./DNS.sh 
+ 1284  ./DNS.sh 172.20.11.80 jainam.in
+ 1285  ./DNS.sh 172.20.11.80 google.com
+ 1286  ./DNS.sh 172.20.11.80 strike.jainam.in
+ 1287  ssh root@192.168.12.6
+ 1288  ssh root@172.20.11.95
+ 1289  sudo apt update
+ 1290  sudo apt install mysql-server
+ 1291  sudo service mysql status
+ 1292  wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.0+ubuntu22.04_all.deb
+ 1293  sudo dpkg -i zabbix-release_latest_7.0+ubuntu22.04_all.deb
+ 1294  sudo apt install zabbix-agent
+ 1295  sudo nano /etc/zabbix/zabbix_agentd.conf 
+ 1296  sudo systemctl start zabbix-agent
+ 1297  sudo systemctl enable zabbix-agent
+ 1298  sudo systemctl start zabbix-agent
+ 1299  sudo systemctl restart zabbix-agent
+ 1300  sudo nano /etc/zabbix/zabbix_agentd.conf 
+ 1301  sudo systemctl restart zabbix-agent
+ 1302  sudo nano /etc/zabbix/zabbix_agentd.d/template_db_mysql.conf
+ 1303  sudo mysql
+ 1304  sudo mysql -u root -p
+ 1305  sudo systemctl restart zabbix-agent
+ 1306  sudo systemctl restart zabbix-agent.service 
+ 1307  sudo mysql -u root -p
+ 1308  sudo nano /var/lib/zabbix/.my.cnf
+ 1309  sudo service zabbix-agent restart
+ 1310  sudo service zabbix-agent status
+ 1311  sudo systemctl restart mysql.service 
+ 1312  export PATH=$PATH:/path/to/mysql/bin
+ 1313  ~/.bash_profile
+ 1314  nano ~/.bash_profile
+ 1315  nano ~/.bashrc 
+ 1316  mysql -u root -p
+ 1317  sudo nano /var/lib/zabbix/.my.cnf
+ 1318  sudo service zabbix-agent restart
+ 1319  which mysql
+ 1320  sudo chown zabbix:zabbix /var/lib/zabbix/.my.cnf
+ 1321  sudo chmod 600 /var/lib/zabbix/.my.cnf
+ 1322  zabbix_agentd -t
+ 1323  echo 'export PATH=$PATH:/usr/bin' >> ~/.bashrc
+ 1324  source ~/.bashrc
+ 1325  sudo systemctl restart zabbix-agent
+ 1326  sudo systemctl restart mysql.service 
+ 1327  sudo nano /etc/zabbix/zabbix_agentd.d/template_db_mysql.conf
+ 1328  sudo mysql -u root -p
+ 1329  sudo nano /var/lib/zabbix/.my.cnf
+ 1330  sudo chown zabbix:zabbix /var/lib/zabbix/.my.cnf
+ 1331  sudo chmod 600 /var/lib/zabbix/.my.cnf
+ 1332  mysql -u zbx_monitor -p -h localhost
+ 1333  sudo tail -f /var/log/zabbix/zabbix_agentd.log
+ 1334  sudo ufw status
+ 1335  sudo systemctl status zabbix-server
+ 1336  sudo ufw allow 10051/tcp
+ 1337  sudo systemctl restart mysql.service 
+ 1338  sudo systemctl restart zabbix-agent.service 
+ 1339  sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+ 1340  sudo systemctl restart zabbix-agent.service 
+ 1341  sudo systemctl restart mysql.service 
+ 1342  sudo nano /etc/mysql/my.cnf
+ 1343  mysql -u root -p --port=3306
+ 1344  echo $MYSQL_PORT
+ 1345  sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+ 1346  sudo nano /etc/mysql/my.cnf
+ 1347  sudo systemctl restart mysql
+ 1348  mysql -u root -p --port=3306
+ 1349  mysql -u root -p --port=zbx_monitor
+ 1350  mysql -u root -p --port=3306
+ 1351  echo $MYSQL_PORT
+ 1352  sudo tail -f /var/log/mysql/error.log
+ 1353  sudo nano /etc/mysql/my.cnf
+ 1354  sudo systemctl restart mysql
+ 1355  sudo netstat -tulnp | grep mysql
+ 1356  mysql -u root -p
+ 1357  SHOW VARIABLES LIKE 'port';
+ 1358  sudo ufw allow 3306/tcp
+ 1359  sudo ufw reload
+ 1360  cat /usr/share/doc/zabbix-agent/userparameter_mysql.conf 
+ 1361  sudo apt install mlocate
+ 1362  locate userparam
+ 1363  cp /usr/share/doc/zabbix-agent/userparameter_mysql.conf /etc/zabbix/zabbix_agentd.d/template_db_mysql.conf
+ 1364  sudo cp /usr/share/doc/zabbix-agent/userparameter_mysql.conf /etc/zabbix/zabbix_agentd.d/template_db_mysql.conf
+ 1365  locate my.cnf
+ 1366  sudo /etc/mysql/my.cnf
+ 1367  sudo nano /etc/mysql/my.cnf
+ 1368  sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf 
+ 1369  mysql -u root -p
+ 1370  sudo nano /var/lib/zabbix/.my.cnf
+ 1371  sudo nano /etc/mysql/.my.cnf 
+ 1372  cd /etc/mysql/
+ 1373  ls
+ 1374  cat .my.cnf 
+ 1375  sudo cat .my.cnf 
+ 1376  sudo rm .my.cnf 
+ 1377  ls
+ 1378  nno my.cnf
+ 1379  nano my.cnf
+ 1380  sudo nano my.cnf
+ 1381  service zabbix-agent start
+ 1382  sudo service zabbix-agent start
+ 1383  sudo enable zabbix-agent start
+ 1384  sudo systemctl restart mysql
+ 1385  sudo systemctl restart zabbix-agent.service 
+ 1386  mysql --port=zbx_monitor
+ 1387  mysql -u zbx_monitor -p
+ 1388  sudo apt install mysql-client
+ 1389  cd /etc/mysql/
+ 1390  ls
+ 1391  nano .bashrc
+ 1392  export PATH=$PATH:/usr/local/mysql/bin
+ 1393  nano ~/.bashrc
+ 1394  which mysql
+ 1395  nano ~/.bashrc
+ 1396  echo $PATH
+ 1397  nano ~/.bashrc
+ 1398  nano ~/.bash_profile
+ 1399  nano ~/.bashrc
+ 1400  mysql --version
+ 1401  source ~/.bashrc
+ 1402  echo $PATH
+ 1403  which mysql
+ 1404  sudo systemctl restart zabbix-agent
+ 1405  sudo nano /etc/zabbix/zabbix_agentd.conf 
+ 1406  sudo ano /etc/zabbix/zabbix_agentd.d/template_db_mysql.conf 
+ 1407  sudo nano /etc/zabbix/zabbix_agentd.d/template_db_mysql.conf 
+ 1408  cat/usr/share/doc/zabbix-agent/userparameter_mysql.conf 
+ 1409  cat /usr/share/doc/zabbix-agent/userparameter_mysql.conf 
+ 1410  sudo mkdir /var/lib/zabbix/
+ 1411  cd /var/lib/zabbix/
+ 1412  sudo cd /var/lib/zabbix/
+ 1413  sudo cd /var/lib/
+ 1414  cd /var/lib/
+ 1415  ls
+ 1416  cd zabbix/
+ 1417  cd /var/lib/zabbix/
+ 1418  sudo cd /var/lib/zabbix/
+ 1419  cd zabbix/
+ 1420  ls -ld zabbix/
+ 1421  chmod +r+x zabbix/
+ 1422  sudo chmod +r+x zabbix/
+ 1423  cd zabbix/
+ 1424  sudo nano /etc/zabbix/zabbix_agentd.d/template_db_mysql.conf .my.cnf .my.cnf .my.cnf .my.cnf .my.cnf .my.cnf 
+ 1425  sudo nano /etc/zabbix/zabbix_agentd.d/template_db_mysql.conf
+ 1426  cd /etc/zabbix/zabbix_agentd.d/
+ 1427  ls
+ 1428  mv template_db_mysql.conf userparameter_mysql.conf
+ 1429  sudo mv template_db_mysql.conf userparameter_mysql.conf
+ 1430  ls
+ 1431  cat userparameter_mysql.conf 
+ 1432  cd /var/lib/zabbix/
+ 1433  ls
+ 1434  nano .my.cnf
+ 1435  sudo nano .my.cnf
+ 1436  mysql -u root -p
+ 1437  sudo nano .my.cnf
+ 1438  mysql -u root -p
+ 1439  sudo nano .my.cnf
+ 1440  mysql -u root -p
+ 1441  mysql -u root -p -e"status";
+ 1442  sudo systemctl restart zabbix-agent.service 
+ 1443  sudo systemctl restart mysql.service 
+ 1444  mysql -u root -p
+ 1445  mysql -u zabbix -p
+ 1446  sudo systemctl restart mysql.service 
+ 1447  sudo systemctl restart zabbix-agent.service 
+ 1448  mysql -u root -p
+ 1449  sudo nano /etc/mysql/my.cnf
+ 1450  sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf 
+ 1451  sudo nano /etc/mysql/my.cnf
+ 1452  sudo systemctl restart mysql
+ 1453  sudo mysql -u root -p
+ 1454  sudo systemctl restart mysql.service 
+ 1455  sudo ano /etc/mysql/my.cnf
+ 1456  sudo nano /etc/mysql/my.cnf
+ 1457  sudo systemctl restart mysql.service 
+ 1458  sudo mysql -u root -p
+ 1459  mysql -u mon_zbx -p
+ 1460  sudo systemctl restart mysql
+ 1461  sudo systemctl restart mysql.service 
+ 1462  sudo systemctl restart zabbix-agent.service 
+ 1463  sudo mysql -u root -p
+ 1464  sudo systemctl restart zabbix-agent.service 
+ 1465  sudo systemctl restart mys
+ 1466  sudo systemctl restart mysql.service 
+ 1467  sudo nano /etc/hosts
+ 1468  sudo nano /var/lib/zabbix/.my.cnf
+ 1469  sudo systemctl restart zabbix-agent
+ 1470  sudo nano /etc/zabbix/zabbix_agentd.d/template_db_mysql.conf 
+ 1471  sudo systemctl restart zabbix-agent
+ 1472  sudo systemctl restart mysql.service 
+ 1473  sudo nano /etc/zabbix/zabbix_agentd.conf 
+ 1474  sudo systemctl restart mysql.service 
+ 1475  sudo systemctl restart zabbix-agent
+ 1476  sudo nano /etc/zabbix/zabbix_agentd.d/template_db_mysql.conf 
+ 1477  sudo systemctl restart zabbix-agent
+ 1478  sudo systemctl restart mysql.service 
+ 1479  sudo nano /etc/zabbix/zabbix_agentd.d/template_db_mysql.conf 
+ 1480  sudo nano /etc/zabbix/zabbix_agentd.conf 
+ 1481  sudo nano /etc/zabbix/zabbix_agentd.d/template_db_mysql.conf 
+ 1482  sudo systemctl restart zabbix-agent
+ 1483  sudo systemctl restart mysql.service 
+ 1484  zabbix_get -s 192.168.51.195 -k mysql.ping[192.168.51.195,3306]
+ 1485  ssh root@172.20.11.95
+ 1486  su
+ 1487  vi /etc/mysql/my.cnf
+ 1488  sudo vi /etc/mysql/my.cnf
+ 1489  cd /etc/zabbix/zabbix_agentd.d/
+ 1490  ll
+ 1491  vi template_db_mysql.conf 
+ 1492  sudo vi /etc/zabbix/zabbix_agentd.conf 
+ 1493  exit
+ 1494  LS
+ 1495  history 
+ 1496  sudo nano /etc/mysql/my.cnf
+ 1497  sudo nano /etc/zabbix/zabbix_agentd.d/template_db_mysql.conf
+ 1498  sudo systemctl restart zabbix-agent
+ 1499  sudo nano /etc/mysql/my.cnf
+ 1500  sudo nano /etc/zabbix/zabbix_agentd.d/template_db_mysql.conf 
+ 1501  sudo nano /etc/zabbix/zabbix_agentd.conf 
+ 1502  sudo systemctl restart zabbix-agent
+ 1503  sudo systemctl restart mysql.service 
+ 1504  sudo systemctl restart zabbix-agent.service 
+ 1505  sudo nano /etc/mysql/my.cnf
+ 1506  sudo mysql -u root -p
+ 1507  sudo nano /etc/mysql/my.cnf
+ 1508  sudo nano /etc/zabbix/zabbix_agentd.d/template_db_mysql.conf 
+ 1509  sudo nano /etc/zabbix/zabbix_agentd.conf 
+ 1510  sudo systemctl restart zabbix-agent.service 
+ 1511  sudo systemctl restart mysql.service 
+ 1512  sudo nano /etc/mysql/my.cnf
+ 1513  sudo cp /etc/mysql/my.cnf m
+ 1514  sudo nano /etc/mysql/my.cnf
+ 1515  sudo systemctl restart mysql.service 
+ 1516  sudo systemctl restart zabbix-agent.service 
+ 1517  sudo nano /etc/zabbix/zabbix_agentd.conf 
+ 1518  sudo nano /etc/zabbix/zabbix_agentd.d/template_db_mysql.conf 
+ 1519  sudo systemctl restart mysql.service 
+ 1520  sudo ano /etc/mysql/my.cnf
+ 1521  sudo nano /etc/mysql/my.cnf
+ 1522  sudo systemctl restart mysql.service 
+ 1523  sudo systemctl restart zabbix-agent.service 
+ 1524  sudo systemctl stop zabbix-agent
+ 1525  sudo apt-get purge --auto-remove zabbix-agent -y
+ 1526  sudo rm -rf /etc/zabbix
+ 1527  sudo rm -rf /var/log/zabbix
+ 1528  rm -rf /etc/zabbix/zabbix_agentd.d
+ 1529  sudo systemctl stop zabbix-agent
+ 1530  sudo apt-get purge --auto-remove zabbix-agent -y
+ 1531  sudo rm -rf /etc/zabbix
+ 1532  sudo rm -rf /var/log/zabbix
+ 1533  dpkg -l | grep zabbix
+ 1534  sudo rm /etc/apt/sources.list.d/zabbix.list
+ 1535  sudo apt-get update
+ 1536  sudo systemctl stop zabbix-agent
+ 1537  sudo apt-get purge zabbix-agent -y
+ 1538  sudo apt-get purge zabbix-release -y
+ 1539  sudo apt-get autoremove -y
+ 1540  sudo apt-get update
+ 1541  sudo rm -rf /etc/zabbix /var/log/zabbix /var/lib/zabbix
+ 1542  wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.0+ubuntu22.04_all.deb
+ 1543  sudo dpkg -i zabbix-release_latest_7.0+ubuntu22.04_all.deb
+ 1544  sudo apt install zabbix-agent
+ 1545  sudo systemctl start zabbix-agent.service
+ 1546  sudo systemctl enable zabbix-agent.service
+ 1547  sudo systemctl start zabbix-agent.service
+ 1548  sudo systemctl restart zabbix-agent.service
+ 1549  sudo nano /etc/zabbix/zabbix_agentd.conf.d/template_db_mysql.conf
+ 1550  sudo nano /etc/zabbix/zabbix_agentd.conf
+ 1551  sudo systemctl stop zabbix-agent
+ 1552  sudo systemctl disable zabbix-agent
+ 1553  sudo apt-get purge --auto-remove zabbix-agent zabbix-release -y
+ 1554  sudo rm -rf /etc/zabbix
+ 1555  sudo rm -rf /var/log/zabbix
+ 1556  sudo rm -rf /var/lib/zabbix
+ 1557  sudo rm -rf /usr/sbin/zabbix*
+ 1558  sudo rm -f /etc/apt/sources.list.d/zabbix.list
+ 1559  sudo apt-get update
+ 1560  dpkg -l | grep zabbix
+ 1561  wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.0+ubuntu22.04_all.deb
+ 1562  sudo dpkg -i zabbix-release_latest_7.0+ubuntu22.04_all.deb
+ 1563  sudo apt update
+ 1564  sudo apt install zabbix-agent
+ 1565  systemctl restart zabbix-agent
+ 1566  systemctl enable zabbix-agent
+ 1567  systemctl restart zabbix-agent
+ 1568  sudo nano /etc/zabbix/zabbix_agentd.conf 
+ 1569  sudo nano /etc/zabbix/zabbix_agentd.d/template_db_mysql.conf
+ 1570  systemctl restart zabbix-agent
+ 1571  sudo systemctl restart zabbix-agent
+ 1572  sudo systemctl restart mysql.service 
+ 1573  sudo ufw allow 10050/tcp
+ 1574  sudo ufw allow 3306/tcp
+ 1575  sudo systemctl status zabbix-agent.service 
+ 1576  ssh root@172.20.11.95
+ 1577  ssh root@192.168.12.227
+ 1578  ssh root@192.168.12.227
+ 1579  ping 192.168.51.195
+ 1580  ssh root@192.168.12.227
+ 1581  ssh root@172.20.11.95
+ 1582  ssh root@192.168.12.200
+ 1583  cat /etc/hosts
+ 1584  nano /etc/hosts
+ 1585  cpu.temp,sensors | grep 'Core 0' | awk '{print $3}' | tr -d '+°C'
+ 1586  cat /sys/class/thermal/thermal_zone0/temp
+ 1587  SENSOR
+ 1588  sensor
+ 1589  history 
+ 1590  sudo nano /etc/zabbix/zabbix_agentd.conf
+ 1591  sudo systemctl restart zabbix-agent
+ 1592  ip a
+ 1593  cat /sys/class/thermal/thermal_zone0/temp
+ 1594  ls /sys/class/thermal/
+ 1595  find /sys/class/hwmon/ -name 'temp*_input'
+ 1596  cat /sys/class/hwmon/hwmon0/temp1_input
+ 1597  cd Downloads/
+ 1598  ssh -i "MGT-COMMERCE-PEM.pem" admin@ec2-13-203-206-124.ap-south-1.compute.amazonaws.com
+ 1599  sudo ssh -i "MGT-COMMERCE-PEM.pem" admin@ec2-13-203-206-124.ap-south-1.compute.amazonaws.com
+ 1600  cd Downloads/
+ 1601  ls
+ 1602  chmod 400 "MGT-COMMERCE-PEM.pem"
+ 1603  ec2-35-154-145-226.ap-south-1.compute.amazonaws.com
+ 1604  ssh -i "MGT-COMMERCE-PEM.pem" ubuntu@ec2-35-154-145-226.ap-south-1.compute.amazonaws.com
+ 1605  cd /etc/systemd/system/
+ 1606  ls
+ 1607  cat qhwebsec.service
+ 1608  ssh root@192.168.12.200
+ 1609  nslookup erp.jainam.in
+ 1610  nslookup erpcms.jainam.in
+ 1611  ssh trade@192.168.12.143
+ 1612  ssh trade@192.168.11.143
+ 1613  chmod 400 "MGT-COMMERCE-PEM.pem"
+ 1614  cd Downloads/
+ 1615  chmod 400 "MGT-COMMERCE-PEM.pem"
+ 1616  ec2-13-233-157-3.ap-south-1.compute.amazonaws.com
+ 1617  ssh -i "MGT-COMMERCE-PEM.pem" ubuntu@ec2-13-233-157-3.ap-south-1.compute.amazonaws.com
+ 1618  ssh trade@192.168.11.143
+ 1619  ssh -i "MGT-COMMERCE-PEM.pem" ubuntu@ec2-13-233-157-3.ap-south-1.compute.amazonaws.com
+ 1620  cd Downloads/
+ 1621  ssh -i "MGT-COMMERCE-PEM.pem" ubuntu@ec2-13-233-157-3.ap-south-1.compute.amazonaws.com
+ 1622  ssh trade@192.168.11.143
+ 1623  cd Downloads/
+ 1624  ssh -i "MGT-COMMERCE-PEM.pem" ubuntu@ec2-13-233-157-3.ap-south-1.compute.amazonaws.com
+ 1625  ssh root@172.20.11.95
+ 1626  cd Downloads/
+ 1627  ssh -i "MGT-COMMERCE-PEM.pem" ubuntu@ec2-13-233-157-3.ap-south-1.compute.amazonaws.com
+ 1628  cd Downloads/
+ 1629  ssh -i "MGT-COMMERCE-PEM.pem" ubuntu@ec2-13-233-157-3.ap-south-1.compute.amazonaws.com
+ 1630  ssh root@192.168.12.200
+ 1631  sudo apt update && sudo apt upgrade -y
+ 1632  ls
+ 1633  du -sh *
+ 1634  du -sh AbhayCodes
+ 1635  sudo du -sh AbhayCodes
+ 1636  ls
+ 1637  cd /home/j/sambashare/
+ 1638  sudo du -sh AbhayCodes
+ 1639  cd /home/j/sambashare/
+ 1640  ls
+ 1641  du -sh AbhayCodes/
+ 1642  which samba
+ 1643  sudo apt update
+ 1644  sudo apt install samba
+ 1645  whereis samba
+ 1646  who
+ 1647  mkdir /home/j/sambashare/
+ 1648  sudo nano /etc/samba/smb.conf
+ 1649  sudo service smbd restart
+ 1650  sudo ufw allow samba
+ 1651  sudo smbpasswd -a j
+ 1652  sudo apt update
+ 1653  sudo apt install cifs-utils -y
+ 1654  sudo mkdir -p /mnt/windows_share
+ 1655  ssh root@172.20.11.95
+ 1656  ssh root@192.168.12.200
+ 1657  wget https://gist.githubusercontent.com/0xabu/43f4330cd279cbf31c67a63c086da006/raw/14507183c80a38c262585967dec79f21d7679828/install-cert.py
+ 1658  pwd
+ 1659  ssh root@192.168.12.200
+ 1660  ssh root@192.168.12.227
+ 1661  df -HT
+ 1662  cd /var/lib/mysql
+ 1663  sudo cd /var/lib/mysql
+ 1664  su root
+ 1665  ls
+ 1666  cd ssl/
+ 1667  ls
+ 1668  sudo systemctl stop apache2.service 
+ 1669  sudo apt install nginx
+ 1670  sudo systemctl enable nginx
+ 1671  sudo systemctl start nginx
+ 1672  journalctl -xeu nginx.service
+ 1673  sudo touch /var/log/nginx/error.log
+ 1674  sudo touch /var/log/nginx/access.log
+ 1675  sudo touch /var/log/nginx/error.log
+ 1676  sudo touch /var/log/nginx/access.log
+ 1677  sudo touch /var/log/nginx/error.log
+ 1678  sudo touch /var/log/nginx/access.log
+ 1679  sudo systemctl restart nginx
+ 1680  journalctl -xeu nginx.service
+ 1681  ls -l /var/log/nginx
+ 1682  sudo mkdir -p /var/log/nginx
+ 1683  sudo touch /var/log/nginx/error.log
+ 1684  sudo touch /var/log/nginx/access.log
+ 1685  sudo chown www-data:www-data /var/log/nginx/error.log
+ 1686  sudo chown www-data:www-data /var/log/nginx/access.log
+ 1687  sudo chown www-data:www-data /var/log/nginx/error.log
+ 1688  sudo chown www-data:www-data /var/log/nginx/access.log
+ 1689  sudo chown www-data:www-data /var/log/nginx/error.log
+ 1690  sudo chown www-data:www-data /var/log/nginx/access.log
+ 1691  sudo systemctl restart nginx
+ 1692  sudo systemctl status nginx
+ 1693  php -v
+ 1694  sudo mysql -u root
+ 1695  sudo mysql -u root -p
+ 1696  sudo apt install git
+ 1697  sudo -R chown www-data:www-data /var/www/
+ 1698  cd /var/www/
+ 1699  sudo -u www-data git clone https://github.com/passbolt/passbolt_api.git
+ 1700  sudo chmod 775 /var/www
+ 1701  sudo chown -R www-data:www-data /var/www
+ 1702  sudo -u www-data git clone https://github.com/passbolt/passbolt_api.git
+ 1703  cd /var/www/passbolt_api/
+ 1704  sudo apt install composer
+ 1705  cd /var/www/passbolt_api/
+ 1706  sudo apt install composersudo -u www-data composer install --no-dev
+ 1707  sudo systemctl restart nginx.service 
+ 1708  sudo apt install haveged
+ 1709  sudo systemctl status haveged
+ 1710  sudo -u www-data gpg --quick-gen-key "Parasmal Prajapati <parasmal.prajapati@jainam.biz>" default default never
+ 1711  sudo -u www-data gpg --armor --export-secret-keys parasmal.prajapati@jainam.biz | sudo tee /var/www/passbolt_api/config/gpg/serverkey_private.asc > /dev/null
+ 1712  sudo -u www-data gpg --armor --export parasmal.prajapati@jainam.biz | sudo tee /var/www/passbolt_api/config/gpg/serverkey.asc > /dev/null
+ 1713  sudo -u www-data gpg --armor --export-secret-keys parasmal.prajapati@jainam.biz | sudo tee /var/www/passbolt_api/config/gpg/serverkey_private.asc > /dev/null
+ 1714  sudo -u www-data gpg --armor --export parasmal.prajapati@jainam.biz | sudo tee /var/www/passbolt_api/config/gpg/serverkey.asc > /dev/null
+ 1715  sudo -u www-data gpg --list-keys
+ 1716  cd /var/www/passbolt_api
+ 1717  sudo cp config/passbolt.default.php config/passbolt.php
+ 1718  sudo nano config/passbolt.php
+ 1719  sudo su -s /bin/bash -c "/var/www/passbolt_api/bin/cake passbolt install --force" www-data
+ 1720  php -v
+ 1721  sudo systemctl stop nginx.service 
+ 1722  sudo systemctl enable apache
+ 1723  sudo systemctl start apache
+ 1724  which apache
+ 1725  sudo systemctl disable nginx.service 
+ 1726  sudo systemctl start apache
+ 1727  history 
+ 1728  sudo systemctl restart apache2
+ 1729  sudo systemctl status apache2
+ 1730  sudo systemctl start apache2
+ 1731  sudo systemctl enable apache2
+ 1732  sudo systemctl restart apache2
+ 1733  ssh root@172.20.11.95
+ 1734  ssh root@172.20.11.94
+ 1735  ping 45.114.245.84
+ 1736  whois 45.114.245.84
+ 1737  sudo apt install whois
+ 1738  whois 45.114.245.84
+ 1739  date
+ 1740  timedatectl
+ 1741  ssh root@192.168.12.200
+ 1742  ssh root@172.20.11.200
+ 1743  ssh -p 4122 root@172.20.11.200
+ 1744  ssh roo
+ 1745  ssh root@192.168.12.200
+ 1746  docker --help
+ 1747  docker container ls
+ 1748  docker ps
+ 1749  sudo systemctl start docker
+ 1750  sudo systemctl status docker
+ 1751  docker ps
+ 1752  unix:///home/j/.docker/desktop/docker.sock
+ 1753  su root
+ 1754  su root
+ 1755  docker
+ 1756  sudo systemctl status docker.service 
+ 1757  ssh root@192.168.12.200
+ 1758  ping 172.20.11.200
+ 1759  ssh root@192.168.12.200
+ 1760  ping 172.20.11.200
+ 1761  su root
+ 1762  history 
+ 1763  ssh -p 4122 root@172.20.11.200
+ 1764  ssh-keygen -f "/home/j/.ssh/known_hosts" -R "[172.20.11.200]:4122"
+ 1765  ssh -p 4122 root@172.20.11.200
+ 1766  sudo nano /etc/hosts
+ 1767  curl ifconfig.me
+ 1768  PING 192.168.150.7
+ 1769  ping 192.168.150.7
+ 1770  ssh root@172.20.11.95
+ 1771  ssh root@192.168.12.165
+ 1772  ping 192.168.150.35
+ 1773  ssh root@192.168.12.227
+ 1774  ssh root@172.20.11.95
+ 1775  ssh root@192.168.1.227
+ 1776  ssh root@192.168.12.227
+ 1777  cat /etc/hosts
+ 1778  ssh root@172.20.11.95
+ 1779  ping 192.168.11.124
+ 1780  ping 192.168.150.18
+ 1781  ssh root@172.20.11.95
+ 1782  scp mysqltuner.pl campusdb@172.20.11.7:/home/root
+ 1783  sudo scp mysqltuner.pl campusdb@172.20.11.7:/home/root
+ 1784  sudo scp mysqltuner.pl campusdb@172.20.11.7:/root
+ 1785  sudo scp mysqltuner.pl campusdb@172.20.11.7:/etc/mysql
+ 1786  scp mysqltuner.pl campusdb@172.20.11.7:/home/campusdb/
+ 1787  pwd
+ 1788  ssh root@192.168.12.6
+ 1789  cat /etc/phpmyadmin/config.inc.php 
+ 1790  ssh root@192.168.12.227
+ 1791  ping 192.168.150.179
+ 1792  cd /etc/zabbix/zabbix_agentd.d/
+ 1793  ls
+ 1794  sudo mysql
+ 1795  ssh campusdb@172.20.11.7
+ 1796  ssh trade@192.168.11.143
+ 1797  ssh root@172.20.11.95
+ 1798  date
+ 1799  ssh trade@192.168.11.143
+ 1800  ssh root@192.168.12.227
+ 1801  ssh campusdb@172.20.11.7
+ 1802  ping 192.168.51.195
+ 1803  ssh root@172.20.11.95
+ 1804  ls
+ 1805  python3 basic.py 
+ 1806  ps
+ 1807  top
+ 1808  print("Hello, World!")
+ 1809  su root
+ 1810  /bin/python3 /home/j/python/basic.py
+ 1811  free -h
+ 1812  su root
+ 1813  ls
+ 1814  getfacl mariadb_repo_setup 
+ 1815  setfacl -m u:j v 
+ 1816  setfacl -m u:j:rw v 
+ 1817  getfacl v
+ 1818  ls
+ 1819  ls ltr
+ 1820  ls
+ 1821  ls -la
+ 1822  touch ff.txt
+ 1823  ffs.txt 
+ 1824  ls
+ 1825  ln ff.txt python/
+ 1826  ls -ltr
+ 1827  cd python/
+ 1828  ls
+ 1829  ls -ltr
+ 1830  ls -l ff.txt
+ 1831  ssh root@172.20.11.95
+ 1832  ssh root@192.168.12.6
+ 1833  history 
+ 1834  su root
+ 1835  ssh jitsi@172.20.11.73
+ 1836  ssh root@172.20.11.95
+ 1837  ssh root@172.20.11.73
+ 1838  ssh jitsi@172.20.11.73
+ 1839  ssh root@172.20.11.73
+ 1840  ssh root@172.20.11.95
+ 1841  ssh root@192.168.12.200
+ 1842  ssh root@172.20.11.73
+ 1843  sudo nano /etc/systemd/system.conf 
+ 1844  ping 172.20.11.155
+ 1845  sudo userdel usera
+ 1846  sudo userdel userb
+ 1847  cat /etc/passwd
+ 1848  date
+ 1849  ssh root@172.20.11.73
+ 1850  ls
+ 1851  ls -ltr
+ 1852  cat /var/log/jenkins/
+ 1853  cat /var/log/nginx/error.log 
+ 1854  cat /var/log/nginx/access.log
+ 1855  cat /var/log/mail.log
+ 1856  cd /var/log
+ 1857  ls
+ 1858  awk '{ print $0 }' abc
+ 1859  awk '{ print $0 }' mail.log
+ 1860  awk '{ print $1, $2 }' mail.log
+ 1861  awk '{ print NF }' mail.log
+ 1862  awk '{ print NR, $0 }' mail.log
+ 1863  awk 'BEGIN { FS=" " } { print $1, $2 }' mail.log
+ 1864  awk 'BEGIN { OFS=":" } { print $1, $2 }' mail.log
+ 1865  CD
+ 1866  cd
+ 1867  ls
+ 1868  awk '{ print $0 }' interface.csv 
+ 1869  awk '{ print $1, $2 }' interface.csv
+ 1870  awk '{ print NF }' interface.csv
+ 1871  awk '{ print NR, $0 }' interface.csv
+ 1872  awk 'BEGIN { FS=" " } { print $1, $2 }' interface.csv
+ 1873  sudo systemctl list-units --type=service
+ 1874  sudo systemctl list-units --type=service --all
+ 1875  sudo systemctl list-units --type=service --state=active
+ 1876  sudo systemctl list-units --type=service --state=running
+ 1877  sudo systemctl list-units --type=service --state=stop
+ 1878  sudo systemctl list-units --type=service --state=disable
+ 1879  sudo systemctl list-units --type=service --state=inactive
+ 1880  ssh plchat@172.20.11.220
+ 1881  curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz
+ 1882  history 
+ 1883  sudo apt-get install -y curl
+ 1884  curl -L https://releases.rocket.chat/6.13.0/download -o /tmp/rocket.chat.tgz
+ 1885  ls
+ 1886  pwd
+ 1887  curl -L https://releases.rocket.chat/latest/download -o /home/j/rocket.chat.tgz
+ 1888  ls
+ 1889  scp rocket.chat.tgz plchat@172.20.11.220:/tmp
+ 1890  #!/bin/bash
+ 1891  name="Alice"
+ 1892  echo "Hello, $name"
+ 1893  echo "Enter your name:"
+ 1894  cd SSL_2025_myonlineoffices.com/PEM/
+ 1895  pwd
+ 1896  openssl req -new -newkey rsa:2048 -nodes -keyout /home/j/SSL_2025_myonlineoffices.com/PEM/myonlineofficescom.key -out /home/j/SSL_2025_myonlineoffices.com/PEM/myonlineofficescom.csr
+ 1897  ls
+ 1898  pwd
+ 1899  LS
+ 1900  ls
+ 1901  cat /home/j/SSL_2025_myonlineoffices.com/CRT/myonlineofficescom.crt /home/j/SSL_2025_myonlineoffices.com/CRT/Intermediate.crt /home/j/SSL_2025_myonlineoffices.com/CRT/Root.crt > /home/j/SSL_2025_myonlineoffices.com/CRT/fullchain.pem
+ 1902  tree
+ 1903  LS
+ 1904  ls
+ 1905  cd /home/j/Downloads/AllAttachments/SSL_2025_myonlineoffices.com/
+ 1906  tree
+ 1907  server.key
+ 1908  cat CRT/myonlineofficescom.crt CRT/Intermediate.crt CRT/Root.crt > fullchain.crt
+ 1909  cat PEM/myonlineofficescom.pem PEM/Intermediate.pem PEM/Root.pem > fullchain.pem
+ 1910  ls
+ 1911  tree
+ 1912  history 
+ 1913  ls
+ 1914  scp SSL_2025_myonlineoffices.com/ plchat@172.20.11.220:/etc/nginx
+ 1915  scp -r SSL_2025_myonlineoffices.com/ plchat@172.20.11.220:/etc/nginx
+ 1916  sudo scp -r SSL_2025_myonlineoffices.com/ plchat@172.20.11.220:/etc/nginx
+ 1917  ssh plchat@172.20.11.220
+ 1918  ssh root@172.20.11.94
+ 1919  sudo nano /etc/hosts
+ 1920  dig A
+ 1921  dig a schatt.myonlineoffices.com
+ 1922  nslookup schatt.myonlineoffices.com
+ 1923  nslookup schatt.jainam.in
+ 1924  nslookup schatt.myonlineoffices.com
+ 1925  su root
+ 1926  ping 172.20.13.21
+ 1927  ssh root@172.20.11.94
+ 1928  openssl req -new -newkey rsa:2048 -nodes -out schatt_myonlineoffices_com.csr -keyout schatt_myonlineoffices_com.key -subj "/C=IN/ST=gujarat/L=surat/O=jainam broking limited/OU=jainam infra/CN=schatt.myonlineoffices.com"
+ 1929  ls
+ 1930  cat schatt_myonlineoffices_com.csr
+ 1931  ssh plchat@172.20.11.220
+ 1932  git
+ 1933  date
+ 1934  timedatectl status
+ 1935  ssh root@172.20.11.171
+ 1936  ssh root@172.20.11.172
+ 1937  ssh j@172.20.11.172
+ 1938  curl -L https://releases.rocket.chat/6.7.0/download -o /tmp/rocket.chat.tgz
+ 1939  ls
+ 1940  cd /home/j/
+ 1941  l
+ 1942  ls
+ 1943  cd /tmp/
+ 1944  ls
+ 1945  scp rocket.chat.tgz plchat@172.20.11.220:/home/plchat
+ 1946  mkdir -p /home/rocketchat/.cache
+ 1947  sudo mkdir -p /home/rocketchat/.cache
+ 1948  ssh plchat@172.20.11.220
+ 1949  nslookup schatt.myonlineoffices.com
+ 1950  dig +short schatt.myonlineoffices.com
+ 1951  ssh plchat@172.20.11.220
+ 1952  ssh root@192.168.12.227
+ 1953  ls
+ 1954  cd /home/
+ 1955  ls
+ 1956  rm 0rf bb/
+ 1957  rm -rf bb/
+ 1958  sudo rm -rf bb/
+ 1959  sudo rm -rf gitlab-runner/ usera/ userb/
+ 1960  ssh plchat@172.20.11.220
+ 1961  ssh root@172.20.11.172
+ 1962  ssh j@172.20.11.172
+ 1963  ssh root@192.168.12.6
+ 1964  sudo apt-get update && sudo apt-get upgrade && sudo apt-get autoremove -y
+ 1965  sudo apt --list upgradeable
+ 1966  sudo apt list --upgradeable
+ 1967  sudo apt update && sudo apt upgrade
+ 1968  sudo apt-get update && sudo apt-get upgrade && sudo apt-get autoremove -y
+ 1969  dpkg -l | grep newrelic
+ 1970  sudo apt-get remove --purge newrelic-daemon newrelic-php5 newrelic-php5-common -y
+ 1971  sudo apt-get autoremove -y
+ 1972  dpkg -l | grep newrelic
+ 1973  sudo rm /etc/apt/sources.list.d/newrelic*.list
+ 1974  sudo apt-key list | grep -A 2 "New Relic"  # Note the key ID and then:
+ 1975  sudo apt-key del <KEYID>  # Replace with actual ID if needed
+ 1976  sudo apt-get update
+ 1977  sudo rm /etc/apt/sources.list.d/zabbix*.list
+ 1978  sudo apt-get update
+ 1979  sudo apt-get update && sudo apt-get upgrade && sudo apt-get autoremove -y
+ 1980  sudo apt-get install grub-efi-amd64-bin grub-efi-amd64-signed
+ 1981  sudo apt list --upgradeable
+ 1982  sudo apt-get update && sudo apt-get upgrade && sudo apt-get autoremove -y
+ 1983  init 6
+ 1984  sudo apt-get update && sudo apt-get upgrade && sudo apt-get autoremove -y
+ 1985  sh plchat2172.20.11.220
+ 1986  ssh plchat2172.20.11.220
+ 1987  ssh plchat@172.20.11.220
+ 1988  nano /etc/hosts
+ 1989  su root
+ 1990  date
+ 1991  ssh plchat@172.20.11.220
+ 1992  init 0
+ 1993  ssh plchat@172.20.11.220
+ 1994  ssh root@172.20.11.95
+ 1995  ping 172.20.10.41
+ 1996  ping 172.20.11.151
+ 1997  git
+ 1998  su root
+ 1999  mkdir Git-repo
+ 2000  git init
+ 2001  git status
+ 2002  git sdd index.html
+ 2003  git add index.html
+ 2004  git status
+ 2005  git commit -m "staging area"
+ 2006  git status
+ 2007  git branch
+ 2008  git log
+ 2009  git status
+ 2010  git add index.html 
+ 2011  git diff
+ 2012  git commit -m "this is a v2"
+ 2013  git log
+ 2014  git show e26fdf363513fb73b1334ac27fb7476ef5cecc3b:index.html
+ 2015  git checkout e26fdf363513fb73b1334ac27fb7476ef5cecc3b --*
+ 2016  git checkout e26fdf363513fb73b1334ac27fb7476ef5cecc3b -- *
+ 2017  git checkout master
+ 2018  git checkout master -- *
+ 2019  git status
+ 2020  git restore index.html
+ 2021  git status
+ 2022  git add index.html 
+ 2023  git status
+ 2024  git restore --staged index.html
+ 2025  git restore index.html
+ 2026  git status
+ 2027  git add index.html 
+ 2028  git commit -m "this is garbad code"
+ 2029  git status
+ 2030  git log
+ 2031  git status
+ 2032  git add index.html 
+ 2033  git status
+ 2034  git restore --worktree index.html
+ 2035  git status
+ 2036  git restore index.html
+ 2037  git status
+ 2038  git add index.html 
+ 2039  git commit -m "V4"
+ 2040  git status
+ 2041  git add index.html 
+ 2042  git commit -m "V5"
+ 2043  git log
+ 2044  git reset --hard HEAD^
+ 2045  GIT LOG -P -2
+ 2046  git log -p -2
+ 2047  git log --stat
+ 2048  git log --oneline
+ 2049  git log --oneline=pretty
+ 2050  git log --pretty=oneline
+ 2051  git status
+ 2052  git log --pretty=format:"%h - %an, %ar:%s"
+ 2053  git log -S v
+ 2054  git log --author="paras-prajapati"
+ 2055  git remote add origin https://github.com/paras-prajapati/my-repo.git
+ 2056  git branch -M main
+ 2057  git push -u origin main
+ 2058  git status
+ 2059  git add index.html 
+ 2060  git commit -m "v5"
+ 2061  git push 
+ 2062  git remote
+ 2063  git remote -v
+ 2064  git status
+ 2065  git pull
+ 2066  git add .
+ 2067  git commit -m "v6"
+ 2068  git push
+ 2069  git branch
+ 2070  git checkout -b design
+ 2071  git branch
+ 2072  git status
+ 2073  git add *
+ 2074  git status
+ 2075  git commit -m "Added design for html page"
+ 2076  git branch
+ 2077  git checkout main 
+ 2078  git status
+ 2079  git checkout design 
+ 2080  git status
+ 2081  git checkout main 
+ 2082  git merge design 
+ 2083  git push
+ 2084  git checkout design 
+ 2085  git add index.html 
+ 2086  git commit -m "by design branch"
+ 2087  git checkout main 
+ 2088  git merge design 
+ 2089  git push
+ 2090  git status
+ 2091  git checkout design 
+ 2092  git status
+ 2093  git add index.html 
+ 2094  git commit -m "new tag by design"
+ 2095  git push origin design 
+ 2096  git checkout main 
+ 2097  git pull
+ 2098  git checkout design 
+ 2099  git add index.html 
+ 2100  git commit -m "version 6.1 by design"
+ 2101  git checkout main 
+ 2102  git add index.html 
+ 2103  git commit -m "v7 by main"
+ 2104  git merge design 
+ 2105  git status
+ 2106  git commit
+ 2107  git status
+ 2108  git branch
+ 2109  git push
+ 2110  git status
+ 2111  git branch
+ 2112  git checkout design 
+ 2113  history 
+ 2114  git branch
+ 2115  git checkout main
+ 2116  git pull
+ 2117  git status
+ 2118  git add .
+ 2119  git commit -m "gitignre"
+ 2120  git push 
+ 2121  git status
+ 2122  git add *
+ 2123  git status
+ 2124  git clean -n
+ 2125  git clean -f
+ 2126  git status
+ 2127  history 
+ 2128  git tag -a V7 -m "this is v7"
+ 2129  git tag
+ 2130  git log
+ 2131  history 
+ 2132  pwd
+ 2133  history > git_hist_m_prashant.txt
